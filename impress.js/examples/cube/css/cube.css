@@ -40,8 +40,8 @@ body {
 
 .step {
     position: relative;
-    width: 700px;
-    height: 700px;
+    width: 1000px;
+    height: 1000px;
     padding: 40px 60px;
     margin: 20px auto;
 
@@ -259,187 +259,154 @@ body.impress-mouse-timeout {
 .impress-enabled #impress-toolbar         { pointer-events: auto }
 .impress-enabled #impress-console-button  { pointer-events: auto }
 
-@keyframes arrival {
-    fom {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes yellowing {
-  from {}
-  to {color: rgb(232, 212, 55);}
-}
-
-.slide_2.present b {
-  animation-name: yellowing;
-  animation-duration: 5s;
-  animation-delay: 11s;
-  animation-iteration-count: 1;
-}
-
-.slide_2.present span {
-  animation-name: arrival;
-  animation-duration: 10s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-}
-
-.slide_3 p {
+.slide_2 p {
   font-size: 24px;
 }
 
-.slide_3 p.pentaho {
+.slide_2 p.pentaho {
+  text-align: right;
 }
 
-.slide_3 p.coborns {
-  margin-top: 30px;
+.slide_2 p.coborns {
 }
 
-.slide_3 p.daimler {
-  margin-top: 46px;
-  margin-left: 140px;
+.slide_2 p.daimler {
+  margin-top: 40px;
+  margin-left: 150px;
 }
 
-.slide_3 img {
+.slide_2 img {
   float: left;
   width: 100px;
 }
 
-.slide_3 img.pentaho {
-  width: 120px;
-  margin-right: 25px;
+.slide_2 img.pentaho {
+  width: 260px;
 }
 
-.slide_3 img.tr {
+.slide_2 img.coborns {
   width: 100px;
-  margin-right: 30px;
-  margin-left: 15px;
 }
 
-.slide_3 img.coborns {
-  width: 100px;
-  margin-right: 30px;
-  margin-left: 15px;
-}
-
-.slide_3 img.daimler {
+.slide_2 img.daimler {
   width: 130px;
   position: absolute;
   left: 55px;
 }
 
-.slide_5 p {
+.slide_4 p {
   font-weight: lighter;
 }
 
-.slide_5 img {
+.slide_4 img {
   position: absolute;
   width: 100px;
 }
 
-.slide_5 .angular{
+.slide_4 .angular{
   top: 50px;
   left: 130px;
   width: 130px;
 }
 
-.slide_5 .css {
+.slide_4 .css {
   top: 480px;
   left: 90px;
 }
 
-.slide_5 .eclipse {
+.slide_4 .eclipse {
   top: 30px;
   left: 385px;
   width: 85ps;
 }
 
-.slide_5 .github {
+.slide_4 .github {
   top: 140px;
   left: 250px;
   width: 160px;
 }
 
-.slide_5 .html {
+.slide_4 .html {
   top: 170px;
   left: 530px;
   width: 150px;
 }
 
-.slide_5 .idea {
+.slide_4 .idea {
   top: 70px;
   left: 520px;
   width: 70px;
 }
 
-.slide_5 .jasmine {
+.slide_4 .jasmine {
   top: 170px;
   left: 50px;
 }
 
-.slide_5 .java {
+.slide_4 .java {
   top: 300px;
   left: 0px;
   width: 150px;
 }
 
-.slide_5 .js {
+.slide_4 .js {
   top:310px;
   left: 280px;
   width: 170px;
 }
 
-.slide_5 .karma {
+.slide_4 .karma {
   top: 380px;
   left: 150px;
   width: 85px;
 }
 
-.slide_5 .lodash {
+.slide_4 .lodash {
   top: 500px;
   left: 410px;
 }
 
-.slide_5 .nodejs {
+.slide_4 .nodejs {
   top: 220px;
   left: 430px;
 }
 
-.slide_5 .react {
+.slide_4 .react {
   top: 570px;
   left: 570px;
 }
 
-.slide_5 .redux {
+.slide_4 .redux {
   top: 520px;
   left: 180px;
   width: 220px;
 }
 
-.slide_5 .requirejs {
+.slide_4 .requirejs {
   top: 370px;
   left: 510px;
   width: 130px;
 }
 
-.slide_5 .v8 {
+.slide_4 .v8 {
   top: 270px;
   left: 130px;
 }
 
-.slide_5 p img{
+.slide_4 p img{
   width: 30px;
 }
 
-.slide_6 ul{
+.slide_5 ul{
    list-style-type: square;
 }
 
-.slide_6 img {
+.slide_5 img {
   width: 150px;
   float: right;
 }
 
-.slide_7 img {
+.slide_6 img {
   width: 270px;
   position: absolute;
   top: 490px;
